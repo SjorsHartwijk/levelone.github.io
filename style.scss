@@ -1,0 +1,41 @@
+/* variables */
+$black: #000;
+$white: #fff;
+
+body {
+    background-color: $black;
+    color: $white;
+}
+a {
+    color: $white;
+}
+
+header {
+    height: 100vh;
+    background-image: url('images/banner1.webp');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .title {
+        color: var(--white);
+        text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+        font-weight: 700;
+        span {
+            color: var(--white);
+        }
+    }
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        a {
+            display: flex;
+            padding: 1em;
+            border-radius: 50%;
+            background-color: $black;
+            color: $white;
+        }
+    }
+}
