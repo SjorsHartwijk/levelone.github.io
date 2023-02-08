@@ -12,7 +12,7 @@ a {
 
 header {
     height: 100vh;
-    background-image: url('images/banner1.webp');
+    background-image: url('images/banner.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -31,7 +31,8 @@ header {
         flex-direction: row;
         justify-content: space-around;
         a {
-            display: flex;
+            text-decoration: none;
+            display: block;
             padding: 1em;
             border-radius: 50%;
             background-color: $black;
