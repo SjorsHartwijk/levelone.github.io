@@ -1,7 +1,7 @@
 /* variables */
 @font-face {
   font-family: "Barlow Condensed";
-  src: url("assets/fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("assets/fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("assets/fonts/webfont.ttf") format("truetype");
+  src: url("assets/fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("assets/fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("assets/fonts/BarlowCondensed-MediumItalic.otf") format("opentype"), url("assets/fonts/BarlowCondensed-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
