@@ -6,7 +6,7 @@ $grey: #313147;
 $iconsize: 20px;
 
 body {
-    background-color: $black;
+    background-color: $blue;
     color: $white;
 }
 a {
@@ -23,13 +23,12 @@ header {
     justify-content: center;
 }
 .socials {
-    background-color: $blue;
     color: $white;
     .links {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        margin: $iconsize 0;
+        padding: $iconsize 0;
         a {
             font-size: $iconsize;
             padding: calc($iconsize / 2);
