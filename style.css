@@ -2,17 +2,11 @@
 body {
   background-color: #011533;
   color: #fff;
-  font-family: "Barlow Semi Condensed";
-  font-weight: 600;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
   font-style: italic;
   font-display: swap;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Barlow Semi Condensed";
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
+  text-transform: uppercase;
 }
 
 a {
