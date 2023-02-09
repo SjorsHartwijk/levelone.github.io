@@ -1,6 +1,9 @@
 /* variables */
 $black: #000;
 $white: #fff;
+$blue: #011533;
+$grey: #313147;
+$iconsize: 20px;
 
 body {
     background-color: $black;
@@ -11,32 +14,37 @@ a {
 }
 
 header {
-    height: 100vh;
+    height: calc(100vh - ($iconsize * 4));
     background-image: url('images/banner.webp');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    .title {
-        color: var(--white);
-        text-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-        font-weight: 700;
-        span {
-            color: var(--white);
-        }
-    }
-    .socials {
+}
+.socials {
+    background-color: $blue;
+    color: $white;
+    .links {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
+        margin: $iconsize 0;
         a {
+            font-size: $iconsize;
+            padding: calc($iconsize / 2);
+            width: calc($iconsize * 2);
+            display: flex;
+            margin: 0 calc($iconsize / 2);
             text-decoration: none;
-            display: block;
-            padding: 1em;
-            border-radius: 50%;
-            background-color: $black;
+            justify-content: center;
+            align-items: center;
+            background-color: $grey;
             color: $white;
+            &:hover,:focus {
+                background-color: $white;
+                color: $blue;
+            }
         }
     }
 }
