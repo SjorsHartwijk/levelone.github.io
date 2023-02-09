@@ -3,19 +3,28 @@ $black: #000;
 $white: #fff;
 $blue: #011533;
 $grey: #313147;
-$iconsize: 20px;
+$iconsize: 24px;
 
 body {
     background-color: $blue;
     color: $white;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 600;
+    font-style: italic;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 600;
+    font-style: italic;
 }
 a {
     color: $white;
+    transition: all .3s;
 }
 
 header {
     height: calc(100vh - ($iconsize * 4));
-    background-image: url('images/banner.webp');
+    background-image: url('images/background.webp');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -41,9 +50,16 @@ header {
             background-color: $grey;
             color: $white;
             &:hover,:focus {
+                transform: scale(1.1);
                 background-color: $white;
                 color: $blue;
             }
         }
     }
+}
+.music {
+    padding-bottom: $iconsize;
+}
+.schedule {
+    padding-bottom: $iconsize;
 }

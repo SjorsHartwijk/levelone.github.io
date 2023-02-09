@@ -2,15 +2,25 @@
 body {
   background-color: #011533;
   color: #fff;
+  font-family: "Barlow Semi Condensed";
+  font-weight: 600;
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Barlow Semi Condensed";
+  font-weight: 600;
+  font-style: italic;
 }
 
 a {
   color: #fff;
+  transition: all 0.3s;
 }
 
 header {
-  height: calc(100vh - 80px);
-  background-image: url("images/banner.webp");
+  height: calc(100vh - 96px);
+  background-image: url("images/background.webp");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -25,14 +35,14 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20px 0;
+  padding: 24px 0;
 }
 .socials .links a {
-  font-size: 20px;
-  padding: 10px;
-  width: 40px;
+  font-size: 24px;
+  padding: 12px;
+  width: 48px;
   display: flex;
-  margin: 0 10px;
+  margin: 0 12px;
   text-decoration: none;
   justify-content: center;
   align-items: center;
@@ -40,6 +50,15 @@ header {
   color: #fff;
 }
 .socials .links a:hover, .socials .links a :focus {
+  transform: scale(1.1);
   background-color: #fff;
   color: #011533;
+}
+
+.music {
+  padding-bottom: 24px;
+}
+
+.schedule {
+  padding-bottom: 24px;
 }/*# sourceMappingURL=style.css.map */
