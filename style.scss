@@ -13,7 +13,6 @@ $iconsize: 24px;
     font-style: italic;
     font-display: swap;
 }
-
 body {
     background-color: $blue;
     color: $white;
@@ -24,7 +23,6 @@ a {
     color: $white;
     transition: all .3s;
 }
-
 header {
     height: calc(100vh - ($iconsize * 4));
     background-image: url('images/background2.webp');
