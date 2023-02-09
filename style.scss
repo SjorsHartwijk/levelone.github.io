@@ -24,7 +24,7 @@ a {
     transition: all .3s;
 }
 header {
-    height: calc(100vh - ($iconsize * 4));
+    height: calc(100dvh - ($iconsize * 4));
     background-image: url('images/background2.webp');
     background-size: cover;
     background-position: center;

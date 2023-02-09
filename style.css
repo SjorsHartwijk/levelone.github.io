@@ -19,7 +19,7 @@ a {
 }
 
 header {
-  height: calc(100vh - 96px);
+  height: calc(100dvh - 96px);
   background-image: url("images/background2.webp");
   background-size: cover;
   background-position: center;
