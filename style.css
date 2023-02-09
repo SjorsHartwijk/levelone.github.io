@@ -1,11 +1,17 @@
 /* variables */
-body {
-  background-color: #011533;
-  color: #fff;
-  font-family: "Barlow Condensed", sans-serif;
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("assets/fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("assets/fonts/BarlowCondensed-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
+}
+body {
+  background-color: #011533;
+  color: #fff;
+  font-family: "Barlow Condensed";
+  font-weight: 500;
+  font-style: italic;
   text-transform: uppercase;
 }
 
@@ -16,7 +22,7 @@ a {
 
 header {
   height: calc(100vh - 96px);
-  background-image: url("images/background.webp");
+  background-image: url("images/background2.webp");
   background-size: cover;
   background-position: center;
   display: flex;
