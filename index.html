@@ -19,6 +19,8 @@
     <!-- font awesome -->
     <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
     <link href="assets/fontawesome/css/brands.css" rel="stylesheet">
+    <!-- animations -->
+    <link href="css/aos.css" rel="stylesheet">
     <!-- opengraph -->
     <meta property="og:title" content=DJ Level One>
     <meta property="og:site_name" content=DJ Level One>
@@ -33,7 +35,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-10 col-lg-8">
-                    <img src="images/logo-filled.webp" class="img-fluid" alt="Level One" />
+                    <img src="images/logo-filled.webp" class="img-fluid" alt="Level One" data-aos="zoom-in"/>
                 </div>
             </div>
         </div>
@@ -41,7 +43,7 @@
     <div class="socials">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-10 links">
+                <div class="col-12 col-md-10 links" data-aos="fade-up">
                     <a href="https://www.facebook.com/leveloneofficial" target="_blank" rel="nofollow"
                         aria-label="Connect with Level One on Facebook"><i class="fa-brands fa-facebook"></i></a>
                     <a href="https://www.instagram.com/levelone.official/" target="_blank" rel="nofollow"
@@ -62,14 +64,14 @@
                 <div class="col-12 text-center">
                     <h2>Music</h2>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5" data-aos="fade-right">
                     <iframe style="border-radius:12px" title="Spotify webplayer"
                         src="https://open.spotify.com/embed/artist/5gfLje7A2I9mMRVfuiphnh?utm_source=generator&theme=0"
                         width="100%" height="352" frameBorder="0" allowfullscreen=""
                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                         loading="lazy"></iframe>
                 </div>
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5" data-aos="fade-left">
                     <iframe style="border-radius:12px" title="Spotify webplayer"
                         src="https://open.spotify.com/embed/playlist/0IM9iYGOC4dreUwGM1C0ek?utm_source=generator&theme=0"
                         width="100%" height="352" frameBorder="0" allowfullscreen=""
@@ -85,7 +87,7 @@
                 <div class="col-12 text-center">
                     <h2>Schedule</h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12" data-aos="fade-up">
                     <a href="https://www.songkick.com/artists/989586" class="songkick-widget" data-theme="dark" data-track-button="on" data-detect-style="true" data-background-color="transparent" data-locale="en">Level One schedule</a>
                     <script src="//widget.songkick.com/989586/widget.js"></script>
                 </div>
@@ -93,6 +95,10 @@
         </div>
     </div>
     <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
