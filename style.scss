@@ -30,10 +30,12 @@ header {
     background-image: url('images/background2.webp');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     display: flex;
     align-items: center;
     justify-content: center;
+    @media (min-width:1200px) {
+        background-attachment: fixed;
+    }
 }
 .socials {
     color: $white;
