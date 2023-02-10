@@ -69,3 +69,19 @@ header {
 .schedule {
     padding-bottom: $iconsize;
 }
+.contact {
+    padding-bottom: $iconsize;
+    a {
+        padding: calc($iconsize / 2);
+        display: block;
+        background-color: $grey;
+        color: $white;
+        text-transform: uppercase;
+        text-decoration: none;
+            &:hover,:focus {
+                transform: scale(1.05);
+                background-color: $white;
+                color: $blue;
+            }
+    }
+}

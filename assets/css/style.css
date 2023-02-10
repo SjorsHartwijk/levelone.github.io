@@ -66,4 +66,21 @@ header {
 
 .schedule {
   padding-bottom: 24px;
+}
+
+.contact {
+  padding-bottom: 24px;
+}
+.contact a {
+  padding: 12px;
+  display: block;
+  background-color: #313147;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contact a:hover, .contact a :focus {
+  transform: scale(1.05);
+  background-color: #fff;
+  color: #011533;
 }/*# sourceMappingURL=style.css.map */
