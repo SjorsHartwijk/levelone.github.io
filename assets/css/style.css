@@ -1,7 +1,7 @@
 /* variables */
 @font-face {
   font-family: "Barlow Condensed";
-  src: url("assets/fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("assets/fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("assets/fonts/BarlowCondensed-MediumItalic.otf") format("opentype"), url("assets/fonts/BarlowCondensed-MediumItalic.ttf") format("truetype");
+  src: url("../fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("../fonts/BarlowCondensed-MediumItalic.otf") format("opentype"), url("../fonts/BarlowCondensed-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -20,7 +20,7 @@ a {
 
 header {
   height: calc(100dvh - 96px);
-  background-image: url("images/background2.webp");
+  background-image: url("../images/background2.webp");
   background-size: cover;
   background-position: center;
   display: flex;
