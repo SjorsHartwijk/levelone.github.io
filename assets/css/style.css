@@ -5,12 +5,14 @@
   font-weight: 500;
   font-style: italic;
   font-display: swap;
+  text-rendering: optimizeLegibility;
 }
 body {
   background-color: #011533;
   color: #fff;
   font-family: "Barlow Condensed";
   text-transform: uppercase;
+  text-rendering: optimizeLegibility;
 }
 
 a {
