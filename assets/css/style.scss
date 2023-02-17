@@ -17,6 +17,9 @@ $iconsize: 24px;
     font-display: swap;
     text-rendering: optimizeLegibility;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: $blue;
     color: $white;
