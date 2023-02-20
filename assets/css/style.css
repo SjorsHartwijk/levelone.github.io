@@ -2,10 +2,6 @@
 @font-face {
   font-family: "Barlow Condensed";
   src: url("../fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("../fonts/BarlowCondensed-MediumItalic.otf") format("opentype"), url("../fonts/BarlowCondensed-MediumItalic.ttf") format("truetype"), url("../fonts/BarlowSemiCondensed-SemiBoldItalic.svg") format("svg");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-  text-rendering: optimizeLegibility;
 }
 html {
   scroll-behavior: smooth;
@@ -16,6 +12,9 @@ body {
   color: #fff;
   font-family: "Barlow Condensed";
   text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
   text-rendering: optimizeLegibility;
 }
 
