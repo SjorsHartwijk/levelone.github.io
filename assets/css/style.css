@@ -17,6 +17,21 @@ body {
   font-display: swap;
   text-rendering: optimizeLegibility;
 }
+@media (min-width: 1200px) {
+  body {
+    background-image: url("../images/background2.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+main {
+  background: rgba(1, 21, 51, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+}
 
 a {
   color: #fff;
@@ -25,16 +40,15 @@ a {
 
 header {
   height: calc(100dvh - 96px);
-  background-image: url("../images/background2.webp");
-  background-size: cover;
-  background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
   header {
-    background-attachment: fixed;
+    background-image: url("../images/background2.webp");
+    background-size: cover;
+    background-position: center;
   }
 }
 

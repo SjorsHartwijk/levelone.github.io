@@ -18,6 +18,12 @@ html {
 }
 body {
     background-color: $blue;
+    @media (min-width:1200px) {
+        background-image: url('../images/background2.webp');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
     color: $white;
     font-family: 'Barlow Condensed';
     text-transform: uppercase;
@@ -26,20 +32,25 @@ body {
     font-display: swap;
     text-rendering: optimizeLegibility;
 }
+main {
+    background: rgba(1, 21, 51, 0.57);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+}
 a {
     color: $white;
     transition: all .3s;
 }
 header {
     height: calc(100dvh - ($iconsize * 4));
-    background-image: url('../images/background2.webp');
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (min-width:1200px) {
-        background-attachment: fixed;
+    @media(max-width: 1200px) {
+        background-image: url('../images/background2.webp');
+        background-size: cover;
+        background-position: center;
     }
 }
 .socials {
