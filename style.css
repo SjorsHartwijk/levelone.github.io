@@ -1,0 +1,105 @@
+/* variables */
+@font-face {
+  font-family: "Barlow Condensed";
+  src: url("../fonts/BarlowCondensed-MediumItalic.woff2") format("woff2"), url("../fonts/BarlowCondensed-MediumItalic.woff") format("woff"), url("../fonts/BarlowCondensed-MediumItalic.otf") format("opentype"), url("../fonts/BarlowCondensed-MediumItalic.ttf") format("truetype"), url("../fonts/BarlowSemiCondensed-SemiBoldItalic.svg") format("svg");
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #011533;
+  color: #fff;
+  font-family: "Barlow Condensed";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  text-rendering: optimizeLegibility;
+}
+@media (min-width: 1200px) {
+  body {
+    background-image: url("../images/background2.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+
+main {
+  background: rgba(1, 21, 51, 0.57);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.5px);
+  -webkit-backdrop-filter: blur(4.5px);
+}
+
+a {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+header {
+  height: calc(100dvh - 96px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1200px) {
+  header {
+    background-image: url("../images/background2.webp");
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.socials {
+  color: #fff;
+}
+.socials .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 24px 0;
+}
+.socials .links a {
+  font-size: 24px;
+  padding: 12px;
+  width: 48px;
+  display: flex;
+  margin: 0 12px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  background-color: #313147;
+  color: #fff;
+}
+.socials .links a:hover, .socials .links a :focus {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #011533;
+}
+
+.music {
+  padding-bottom: 24px;
+}
+
+.schedule {
+  padding-bottom: 24px;
+}
+
+.contact {
+  padding-bottom: 24px;
+}
+.contact a {
+  padding: 12px;
+  display: block;
+  background-color: #313147;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.contact a:hover, .contact a :focus {
+  transform: scale(1.05);
+  background-color: #fff;
+  color: #011533;
+}/*# sourceMappingURL=style.css.map */

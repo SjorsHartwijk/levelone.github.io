@@ -1,0 +1,103 @@
+/* variables */
+$black: #000;
+$white: #fff;
+$blue: #011533;
+$grey: #313147;
+$iconsize: 24px;
+
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url('../fonts/BarlowCondensed-MediumItalic.woff2') format('woff2'),
+        url('../fonts/BarlowCondensed-MediumItalic.woff') format('woff'),
+        url('../fonts/BarlowCondensed-MediumItalic.otf') format('opentype'),
+        url('../fonts/BarlowCondensed-MediumItalic.ttf')  format('truetype'),
+        url('../fonts/BarlowSemiCondensed-SemiBoldItalic.svg') format('svg');
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: $blue;
+    @media (min-width:1200px) {
+        background-image: url('../images/background2.webp');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    color: $white;
+    font-family: 'Barlow Condensed';
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+    text-rendering: optimizeLegibility;
+}
+main {
+    background: rgba(1, 21, 51, 0.57);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+}
+a {
+    color: $white;
+    transition: all .3s;
+}
+header {
+    height: calc(100dvh - ($iconsize * 4));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media(max-width: 1200px) {
+        background-image: url('../images/background2.webp');
+        background-size: cover;
+        background-position: center;
+    }
+}
+.socials {
+    color: $white;
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: $iconsize 0;
+        a {
+            font-size: $iconsize;
+            padding: calc($iconsize / 2);
+            width: calc($iconsize * 2);
+            display: flex;
+            margin: 0 calc($iconsize / 2);
+            text-decoration: none;
+            justify-content: center;
+            align-items: center;
+            background-color: $grey;
+            color: $white;
+            &:hover,:focus {
+                transform: scale(1.1);
+                background-color: $white;
+                color: $blue;
+            }
+        }
+    }
+}
+.music {
+    padding-bottom: $iconsize;
+}
+.schedule {
+    padding-bottom: $iconsize;
+}
+.contact {
+    padding-bottom: $iconsize;
+    a {
+        padding: calc($iconsize / 2);
+        display: block;
+        background-color: $grey;
+        color: $white;
+        text-transform: uppercase;
+        text-decoration: none;
+            &:hover,:focus {
+                transform: scale(1.05);
+                background-color: $white;
+                color: $blue;
+            }
+    }
+}
